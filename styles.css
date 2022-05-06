@@ -1,0 +1,118 @@
+:root {
+
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to right, rgb(187, 11, 187), blue);
+    background-image: -moz-linear-gradient(to right, purple, blue);
+    background-image: -webkit-linear-gradient(to right, purple, blue);
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+   
+    
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 180vh;
+    background: rgba(223, 206, 183, 0.748);
+    color: rgb(226, 6, 90);
+   
+  
+}
+
+header {
+    max-width: fit-content;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 3rem;
+    font-size: 25px;
+}
+
+main {
+    margin: 0 auto;
+}
+
+h2 {
+    padding: 2rem;
+    max-width: fit-content;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+
+.individual {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--darkest);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+   
+}
+
+h3 {
+    float: right;
+    width: 150px;
+    align-items: center;
+    padding: 4px;
+
+    background-image: linear-gradient(to right, rgb(187, 11, 187), blue);
+    background-image: -moz-linear-gradient(to right, purple, blue);
+    background-image: -webkit-linear-gradient(to right, purple, blue);
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+
+
+}
+
+.content {
+    padding-left: 2rem;
+    align-self: center;
+   
+}
+
+
+.user-details {
+    padding: 2rem;
+   
+}
+
+input {
+    appearance: none;
+    background: rgba(245, 222, 179, 0.568);
+}
+
+.actions {
+    cursor: pointer;
+    margin: 0 0.5rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    align-self: center;
+}
+
+.actions button:hover {
+    opacity: 0.8;
+}
+
+footer {
+    padding-left: 2rem;
+    align-self: center;
+    font-size: 30px;
+    cursor: pointer
+}
+
+#submit-form-submit button:hover {
+    opacity: 0.8;
+}
